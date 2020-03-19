@@ -1,0 +1,29 @@
+h1{
+    text-align: center;
+}
+
+.container {
+  border: 1px solid black;
+  width: 800px;
+  margin: 0 auto;
+}
+.row{
+    display: flex;
+  }
+
+  .square {
+    width: 100px;
+    height: 100px;
+  }
+
+  .row .square:nth-of-type(even) { 
+    background-color: black;
+  } 
+
+  .row:nth-of-type(even) .square:nth-of-type(even) {  
+    background-color: white;
+  }
+
+  .row:nth-of-type(even) .square:nth-of-type(odd) {
+    background-color: black;
+  }

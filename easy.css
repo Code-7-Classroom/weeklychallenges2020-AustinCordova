@@ -1,0 +1,30 @@
+.flag{
+    border: 2px solid black;
+    width: 100%;
+    height: 500px;
+}
+
+.container{
+    position: absolute;
+}
+
+img{
+    position: relative;
+    left: 0;
+    top: 0;
+    width: 400px;
+    height: 261.7px;
+}
+
+.redstripes{
+    background: red;
+    width:100%;
+    height:10px;
+    border: 10px solid black;
+}
+
+.whitestripes{
+    background: white;
+    width: 100%;
+    height: 10px;
+}

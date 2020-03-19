@@ -1,0 +1,35 @@
+.container {
+    display: flex;
+    justify-self: center;
+  }
+
+.header--bold{
+    text-emphasis: bold;
+    text-align: center;
+}
+
+img{
+    height: 160px;
+    width: 120px;
+    float: left;
+}
+
+.letter--size{
+    font-size: 40px;
+}
+
+  .column{
+    display: flex;
+    width: 33%;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: 10px;
+
+    &:first-child {
+      padding-left: 0;
+    }
+
+    &:last-child {
+      padding-right: 0;
+    }
+  }
