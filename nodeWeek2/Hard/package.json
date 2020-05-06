@@ -1,0 +1,69 @@
+{
+    "employees": [
+        {
+            "name": "Austin",
+            "id": 1,
+            "salery": 1000000,
+            "job": "Back-End Developer"
+        },
+        {
+            "name": "Cody",
+            "id": 2,
+            "salery": 15000000,
+            "job": "CEO"
+        },
+        {
+            "name": "Wilson",
+            "id": 3,
+            "salery": 2000000000,
+            "job": "Real Estate Invester"
+        },
+        {
+            "name": "Adrian",
+            "id": 4,
+            "salery": 3000000000,
+            "job": "Target"
+        },
+        {
+            "name": "Esteban",
+            "id": 5,
+            "salery": 4000000000,
+            "job": "Front End Developer"
+        },
+        {
+            "name": "Angel",
+            "id": 6,
+            "salery": 5000000000,
+            "job": "cashier"
+        },
+        {
+            "name": "Eric",
+            "id": 7,
+            "salery": 6000000000,
+            "job": "Banker"
+        },
+        {
+            "name": "Rafi",
+            "id": 8,
+            "salery": 700000,
+            "job": "Landscaper"
+        },
+        {
+            "name": "Finn",
+            "id": 9,
+            "salery": 20000,
+            "job": "Machanic"
+        },
+        {
+            "name": "Felipe",
+            "id": 10,
+            "salery": 500000,
+            "job": "Support Counselor"
+        }
+    ],
+    "dependencies": {
+        "epress": "0.0.1-security",
+        "express": "^4.17.1",
+        "nodemon": "^2.0.3"
+    }
+}
